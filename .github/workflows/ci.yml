@@ -47,9 +47,9 @@ jobs:
       - name: Set password of every built-in user to 'testpasswd'
         run: >-
           sed -i
-          -e 's/\(ELASTIC_PASSWORD=\)'\''changeme'\''/\1testpasswd/g'
-          -e 's/\(LOGSTASH_INTERNAL_PASSWORD=\)'\''changeme'\''/\1testpasswd/g'
-          -e 's/\(KIBANA_SYSTEM_PASSWORD=\)'\''changeme'\''/\1testpasswd/g'
+          -e 's/\(ELASTIC_PASSWORD=\)'\''risetELK'\''/\1testpasswd/g'
+          -e 's/\(LOGSTASH_INTERNAL_PASSWORD=\)'\''risetELK'\''/\1testpasswd/g'
+          -e 's/\(KIBANA_SYSTEM_PASSWORD=\)'\''risetELK'\''/\1testpasswd/g'
           -e 's/\(METRICBEAT_INTERNAL_PASSWORD=\)'\'\''/\1testpasswd/g'
           -e 's/\(FILEBEAT_INTERNAL_PASSWORD=\)'\'\''/\1testpasswd/g'
           -e 's/\(HEARTBEAT_INTERNAL_PASSWORD=\)'\'\''/\1testpasswd/g'

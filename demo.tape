@@ -46,7 +46,7 @@ Enter
 Sleep 6s
 
 Enter 2
-Type "curl -s http://localhost:9200 -u elastic:changeme"
+Type "curl -s http://localhost:9200 -u elastic:risetELK"
 Sleep 3s
 Enter
 Sleep 12s
